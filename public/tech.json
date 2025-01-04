@@ -1,0 +1,34 @@
+[
+  {
+    "name": "HTML5",
+    "logo": "https://i.ibb.co.com/VT905GN/Digital-Publishing-with-HTML5.jpg"
+  },
+  {
+    "name": "CSS3",
+    "logo": "https://i.ibb.co.com/QjHsYfY/images.png"
+  },
+  {
+    "name": "JavaScript",
+    "logo": "https://i.ibb.co.com/44ZTBYM/Java-Script-logo.png"
+  },
+  {
+    "name": "Tailwind CSS",
+    "logo": "https://i.ibb.co.com/fMSwYY9/images-1.png"
+  },
+  {
+    "name": "React",
+    "logo": "https://i.ibb.co.com/27LqPxV/0-y6-Ic-Be5-J1-Ad-ALz-Xw.png"
+  },
+  {
+    "name": "Firebase",
+    "logo": "https://i.ibb.co.com/S01j4LL/logo-vertical.png"
+  },
+  {
+    "name": "Express.js",
+    "logo": "https://i.ibb.co.com/JF6XyqQ/expressjs-nodejs.png"
+  },
+  {
+    "name": "MongoDB",
+    "logo": "https://i.ibb.co.com/tBtBh7C/Untitled.png"
+  }
+]

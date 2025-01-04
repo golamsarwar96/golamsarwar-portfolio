@@ -9,7 +9,7 @@ const Intro = () => {
       style={{ backgroundImage: `url(${banner})` }}
     >
       <div className="flex ">
-        <div className="lg:p-20 md:p-14 p-4 absolute lg:top-64 lg:left-96 md:top-32 md:space-y-3 space-y-1 top-[84px]">
+        <div className="lg:p-20 md:p-14 p-4 absolute lg:top-52  md:top-32 md:space-y-3 space-y-1 top-[84px]">
           <h1 className="lg:text-5xl md:text-3xl text-xl text-textPrimaryColor font-bold ">
             Front End Web Developer
           </h1>
@@ -25,28 +25,14 @@ const Intro = () => {
             </button>
           </Link>
         </div>
-        <div className="absolute top-16 right-10 lg:top-24 lg:right-[420px] md:top-20">
+        <div className="absolute top-16 right-10 lg:top-[103px] lg:right-72 md:top-20">
           <img
-            className="w-[100px] lg:w-[350px] md:w-[200px]"
+            className="w-[100px] lg:w-[300px] md:w-[200px]"
             src={myImg}
             alt=""
           />
         </div>
       </div>
-      {/* <div className=" text-textPrimaryColor ">
-        <h1 className="md:text-5xl">Front End Web Developer</h1>
-        <p className="md:text-2xl">
-          Your Vision, My Code – A Perfect Web Symphony.
-        </p>
-        <h1 className="md:text-5xl">Banner</h1>
-      </div>
-      <div className="">
-        <img
-          className="absolute lg:right-[450px] lg:-top-20 md:right-20 md:top-7 md:w-[250px] top-0 right-12 w-[150px]  "
-          src={myImg}
-          alt=""
-        />
-      </div> */}
     </div>
   );
 };
