@@ -5,7 +5,7 @@ const Navbar = () => {
   const [activeLink, setActiveLink] = useState("#home");
   const links = (
     <div className="">
-      <ul className="flex items-center justify-center gap-10 font-semibold">
+      <ul className="flex flex-col md:flex-row gap-10 bg-textPrimaryColor md:bg-black md:text-textPrimaryColor text-black p-6 font-semibold">
         <div>
           <li>
             <a
@@ -64,7 +64,7 @@ const Navbar = () => {
     </div>
   );
   return (
-    <div className="bg-black text-textPrimaryColor">
+    <div className="bg-black text-textPrimaryColor fixed z-10 max-w-screen-xl flex justify-between items-center w-full">
       <div className="navbar">
         <div className="navbar-start">
           <div className="dropdown">
@@ -73,7 +73,7 @@ const Navbar = () => {
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
                 fill="none"
-                viewBox="0 0 "
+                viewBox="0 0 24 24"
                 stroke="currentColor"
               >
                 <path
@@ -86,13 +86,13 @@ const Navbar = () => {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+              className="menu menu-sm dropdown-content bg-secondaryColor rounded-box z-[10] mt-3 p-2 shadow flex flex-col gap-2"
             >
               {links}
             </ul>
           </div>
           <div>
-            <img className="w-[180px] h-[70px]" src={logo} alt="" />
+            <img className="md:w-[180px] md:h-[70px]" src={logo} alt="" />
           </div>
         </div>
         <div className="navbar-center hidden lg:flex">
