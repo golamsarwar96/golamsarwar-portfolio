@@ -6,8 +6,8 @@ const MainLayout = () => {
   return (
     <div className="bg-black max-w-screen-xl  py-1 mx-auto">
       <Navbar></Navbar>
-      <Outlet className="min-h-[calc(100vh-232px)]"></Outlet>
-      <Footer></Footer>
+      <Outlet></Outlet>
+      {/* <Footer></Footer> */}
     </div>
   );
 };

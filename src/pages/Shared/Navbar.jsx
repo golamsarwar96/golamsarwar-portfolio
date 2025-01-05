@@ -8,7 +8,7 @@ const Navbar = () => {
       <ul className="flex flex-col md:flex-row gap-10 bg-textPrimaryColor md:bg-black md:text-textPrimaryColor text-black p-6 font-semibold">
         <div>
           <li>
-            <a
+            <Link
               href="#home"
               className={
                 activeLink === "#home" ? "border-b-2 border-b-textColor" : ""
@@ -16,7 +16,7 @@ const Navbar = () => {
               onClick={() => setActiveLink("#home")}
             >
               Home
-            </a>
+            </Link>
           </li>
         </div>
         <div>
@@ -42,6 +42,19 @@ const Navbar = () => {
               onClick={() => setActiveLink("#skills")}
             >
               Skills
+            </a>
+          </li>
+        </div>
+        <div>
+          <li>
+            <a
+              href="#project"
+              className={
+                activeLink === "#project" ? "border-b-2 border-b-textColor" : ""
+              }
+              onClick={() => setActiveLink("#project")}
+            >
+              Projects
             </a>
           </li>
         </div>
