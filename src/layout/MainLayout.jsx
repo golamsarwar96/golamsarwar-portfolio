@@ -7,7 +7,7 @@ const MainLayout = () => {
     <div className="bg-black max-w-screen-xl  py-1 mx-auto">
       <Navbar></Navbar>
       <Outlet></Outlet>
-      {/* <Footer></Footer> */}
+      <Footer></Footer>
     </div>
   );
 };
