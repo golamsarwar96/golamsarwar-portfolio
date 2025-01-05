@@ -40,7 +40,7 @@ const ContactMe = () => {
         CONTACT ME
       </h1>
       <div className="flex gap-10 justify-center items-center flex-col md:flex-row">
-        <div className="card bg-base-100 w-1/2 shadow-2xl mt-10 px-30">
+        <div className="card bg-base-100 lg:w-1/2 md:w-[65%] shadow-2xl mt-10 px-30">
           <form onSubmit={handleSubmit} className="card-body">
             <div className="form-control">
               <label className="label">

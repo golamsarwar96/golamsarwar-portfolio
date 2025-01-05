@@ -10,14 +10,14 @@ const Projects = () => {
   }, []);
   return (
     <div id="project">
-      <h1 className="text-5xl text-textPrimaryColor font-bold mt-10 text-center">
+      <h1 className="lg:text-5xl md:text-4xl text-3xl text-textPrimaryColor font-bold mt-10 text-center">
         Check Out{" "}
         <span className="px-6 py-1 text-black bg-textPrimaryColor rounded-full">
           {projects.length}
         </span>{" "}
         Of My Best Projects
       </h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center items-center mt-10">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-3 justify-center items-center mt-10">
         {projects.map((project) => (
           <Link
             to={`/${project.project_id}`}

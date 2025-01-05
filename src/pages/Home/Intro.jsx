@@ -5,7 +5,7 @@ const Intro = () => {
   return (
     <div
       id="intro"
-      className="lg:max-w-screen-xl md:max-w-7xl min-h-screen lg:bg-contain md:bg-contain bg-contain bg-no-repeat gap-[500px] flex items-center md:flex-row"
+      className="lg:max-w-screen-xl md:max-w-7xl min-h-screen lg:bg-cover md:bg-contain bg-contain bg-no-repeat gap-[500px] flex items-center md:flex-row"
       style={{ backgroundImage: `url(${banner})` }}
     >
       <div className="flex ">
@@ -25,7 +25,7 @@ const Intro = () => {
             </button>
           </Link>
         </div>
-        <div className="absolute top-16 right-10 lg:top-[103px] lg:right-72 md:top-20">
+        <div className="absolute top-16 right-10 lg:top-20 lg:right-72 md:top-20">
           <img
             className="w-[100px] lg:w-[300px] md:w-[200px]"
             src={myImg}
