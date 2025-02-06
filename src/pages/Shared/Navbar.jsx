@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   const [activeLink, setActiveLink] = useState("#home");
   const links = (
-    <div className="">
+    <div className="max-x-screen-2xl mx-auto">
       <ul className="flex flex-col md:flex-row gap-10 bg-textPrimaryColor md:bg-black md:text-textPrimaryColor text-black p-6 font-semibold">
         <div>
           <li>
