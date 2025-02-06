@@ -1,6 +1,16 @@
 [
   {
     "project_id": "1",
+    "projectName": "OpTrack",
+    "projectImage": "https://i.ibb.co.com/93GyKRPF/optrackss.png",
+    "description": "OpTrack is a powerful web application designed to streamline employee management within organizations. The platform supports role-based functionalities for Admins, HRs, and Employees, offering tailored experiences to meet their responsibilities. With features like task submissions, salary management, payment handling via Stripe, and performance tracking, OpTrack provides a seamless and efficient solution for organizational operations.",
+    "projectLink": "https://op-track.web.app/",
+    "githubLink": "https://github.com/golamsarwar96/op-track-app-client",
+    "technologies": "React, React Router, Tailwind CSS, Rechart, Flowbite React, Swiper, Tanstack Query, Stripe, MongoDB, Expressjs",
+    "difficulties": "Had a lot of difficulties making the logics at first but it eventually worked out. Also worked with Stripe payment system and had to learn the payment implementation."
+  },
+  {
+    "project_id": "2",
     "projectName": "Smart Picks",
     "projectImage": "https://i.ibb.co.com/7p50nSz/project2.png",
     "description": "Smart Picks is a Product Recommendation Platform designed to assist users in making informed choices about various products. Users can interact with the system by posting queries, providing recommendations, and sharing insights about alternative products. The platform fosters a collaborative environment where users contribute to a shared knowledge base.",
@@ -10,7 +20,7 @@
     "difficulties": "Working with the backend and syncing data in both parts was the challenge, I had to learn and implement JWT and How different CRUD operations and query work, I also didn't have much time working in the front end. Will make some improvement later on."
   },
   {
-    "project_id": "2",
+    "project_id": "3",
     "projectName": "Sport Flex",
     "projectImage": "https://i.ibb.co.com/HXzD9n2/project1.png",
     "description": "Sport Flex is your ultimate destination for all things sports. Whether you’re an athlete, a coach, or a fitness enthusiast, our website is designed to fuel your passion for sports and fitness. With a sleek and engaging interface, you can explore a variety of sections that make navigation effortless and enjoyable. From discovering top-quality sports gear and accessories tailored for every game to browsing curated categories for Cricket, Football, Hockey, and Tennis, Sport Flex has it all. Be inspired by stories of athletes and their winning moments with our products, while staying informed with insightful blogs. Sport Flex is committed to empowering athletes with premium products and a platform that celebrates the love of sports. Play your best game with Sport Flex!",
@@ -18,15 +28,5 @@
     "githubLink": "https://github.com/golamsarwar96/sport-flex-site",
     "technologies": "React,Firebase,React Routing,Context API,mongoDB",
     "difficulties": "Had to learn about CRUD operations to execute add, update and delete functionality. Also I would love to implement a payment gateway soon and pagination functionality so the products can be navigated properly."
-  },
-  {
-    "project_id": "3",
-    "projectName": "Next Step",
-    "projectImage": "https://i.ibb.co.com/2Kdx2DN/project3.png",
-    "description": "Next Step is a career counseling platform offering personalized guidance to help users navigate their professional journeys. It features tailored assessments, career path exploration, skill-building resources, mentorship opportunities, and real-time job market insights. With an intuitive design, it empowers users to make informed decisions and achieve their career aspirations.",
-    "projectLink": "https://next-step-c5790.web.app/",
-    "githubLink": "https://github.com/golamsarwar96/next-step-site",
-    "technologies": "React, Firebase,React Routing, Context API,Different types Of React Hooks",
-    "difficulties": "Had to learn about different types of React Hooks and how to use them, also faces challenges using Context API to share data between components, will improve the UI/UX and add more features like dashboard for users and admin soon."
   }
 ]
