@@ -20,7 +20,7 @@ const Intro = () => {
           <p className="lg:text-2xl md:text-base text-xs text-textSecondaryColor">
             I Create Scalable & Interactive Websites{" "}
           </p>
-          <Link to="https://golamsarwar-cv.tiiny.site/">
+          <Link to="https://tinyurl.com/resume-of-golam-sarwar">
             <button className="font-semibold rounded-3xl bg-textPrimaryColor text-black md:px-5 md:py-3 px-2 py-1 my-3">
               Download Resume
             </button>

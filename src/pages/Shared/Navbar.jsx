@@ -112,7 +112,7 @@ const Navbar = () => {
           <ul className="">{links}</ul>
         </div>
         <div className="navbar-end">
-          <Link to="https://golamsarwar-cv.tiiny.site/">
+          <Link to="https://tinyurl.com/resume-of-golam-sarwar">
             <button className="font-semibold border-2 rounded-3xl border-textColor px-3 py-3">
               Download Resume
             </button>
